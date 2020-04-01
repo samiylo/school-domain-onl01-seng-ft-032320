@@ -28,7 +28,7 @@ class School
       @key = key
       @value = value
       # @result[@key] = []
-      @result[@key] = @value 
+      @result[@key] = @value.sort 
     end
     @result
     
